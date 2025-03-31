@@ -1,0 +1,2 @@
+# stm32cubemx_platformio
+使用stm32cubemx和platformio创建的stm32工程
