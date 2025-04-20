@@ -3,7 +3,7 @@
 
 #include "stm32f1xx_hal.h"
 // A10是RS选择地址，自动右移一位，则需要如下两个地址的第11位分别是 0 和 1
-#define LCD_CMD_ADDR 0x6c0007fe  
+#define LCD_CMD_ADDR 0x6c000000
 #define LCD_DATA_ADDR 0x6c000800
 
 
