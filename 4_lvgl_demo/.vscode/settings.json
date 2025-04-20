@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "lcd.h": "c",
+        "stdarg.h": "c",
+        "string.h": "c",
+        "lv_port_disp.h": "c"
+    },
+    "marscode.codeCompletionPro": {
+        "enableCodeCompletionPro": false
+    },
+    "marscode.enableCodelens": {
+        "enableInlineDocumentation": false,
+        "enableInlineUnitTest": false,
+        "enableInlineExplain": false
+    },
+    "marscode.enableInlineCommand": false
+}
