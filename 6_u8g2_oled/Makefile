@@ -57,7 +57,13 @@ Core/Src/system_stm32f1xx.c \
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c \
 Core/Src/gpio.c \
 Core/Src/spi.c \
-Core/Src/usart.c
+Core/Src/usart.c \
+Core/Src/syscalls.c \
+Core/Src/mui_test.c \
+Core/Src/oled.c \
+Core/Src/pages_demo.c \
+$(shell ls u8g2_csrc/*.c)
+
 
 # ASM sources
 ASM_SOURCES =  \
@@ -118,7 +124,8 @@ C_INCLUDES =  \
 -IDrivers/STM32F1xx_HAL_Driver/Inc \
 -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy \
 -IDrivers/CMSIS/Device/ST/STM32F1xx/Include \
--IDrivers/CMSIS/Include
+-IDrivers/CMSIS/Include \
+-Iu8g2_csrc
 
 
 # compile gcc flags

@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "mui.h": "c"
+        "mui.h": "c",
+        "usart.h": "c",
+        "main.h": "c"
     }
 }

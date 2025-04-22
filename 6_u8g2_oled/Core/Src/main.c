@@ -104,21 +104,12 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     //oled_draw_test(); // 绘制测试图像
-    demo(&u8g2);
-    // if (HAL_GPIO_ReadPin(KEY0_GPIO_Port, KEY0_Pin) == GPIO_PIN_RESET) {
-    //   HAL_Delay(10); // 消抖
-    //   if (HAL_GPIO_ReadPin(KEY0_GPIO_Port, KEY0_Pin) == GPIO_PIN_RESET) {
-    //     HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET); // 点亮 LED
-    //     while (HAL_GPIO_ReadPin(KEY0_GPIO_Port, KEY0_Pin) == GPIO_PIN_RESET); // 等待按键释放
-    //   }
-    // }
+    //demo(&u8g2);
+    mui_all();
+    // astra_ui_widget_core();
+    // astra_ui_main_core();
+    // ad_astra();
 
-    // if (HAL_GPIO_ReadPin(KEY1_GPIO_Port, KEY1_Pin) == GPIO_PIN_RESET) {
-    //   HAL_Delay(10); // 消抖
-    //   if (HAL_GPIO_ReadPin(KEY1_GPIO_Port, KEY1_Pin) == GPIO_PIN_RESET) {
-    //     HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_SET); // 关闭 LED
-    //     while (HAL_GPIO_ReadPin(KEY1_GPIO_Port, KEY1_Pin) == GPIO_PIN_RESET); // 等待按键释放
-    //   }
     }
   /* USER CODE END 3 */
 }
